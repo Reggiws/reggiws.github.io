@@ -39,8 +39,8 @@ sidebar:
         name: LuClapperboard
         package: "react-icons/lu"
 
-    - title: Music
-      url: "music"
-      icon:
-        name: LuMusic
-        package: "react-icons/lu"
+    # - title: Music
+    #   url: "music"
+    #   icon:
+    #     name: LuMusic
+    #     package: "react-icons/lu"
