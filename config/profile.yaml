@@ -50,12 +50,18 @@ profile:
     #     package: "react-icons/fa6"
 
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
-  biography: |
-  Hi! I'm <strong>Siwei Chen</strong>, an incoming M.S. student at the Institute of Information Engineering, University of Chinese Academy of Sciences (UCAS).
+ biography: >
+  Hi! I'm Siwei Chen, an incoming M.S. student at the Institute of Information Engineering,
+  University of Chinese Academy of Sciences (UCAS).
 
-  My research interests include <em>Large Language Models</em>, <em>LLM Alignment</em>, <em>AI Security</em>, and <em>Agent Systems</em>. I have experience with model fine-tuning and post-training techniques such as SFT, DPO, LoRA, and QLoRA.
+  My research interests include Large Language Models, LLM Alignment,
+  AI Security, and Agent Systems.
 
-  Currently, I am exploring efficient post-training, alignment, and evaluation methods for large language models.
+  I have experience with model fine-tuning and post-training techniques
+  such as SFT, DPO, LoRA, and QLoRA.
+
+  Currently, I am exploring efficient post-training, alignment,
+  and evaluation methods for large language models.
 # # =====================================================
 # # 🎓 Education Section
 # # =====================================================
