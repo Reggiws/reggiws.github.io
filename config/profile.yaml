@@ -12,7 +12,7 @@
 # =====================================================
 
 profile:
-  name: "Siwei Chen"
+  name: "Siwei Chen（陈思危）"
   headline: "Student @ UCAS"
   email: "swaechen@163.com"
   location: Beijing
@@ -72,7 +72,7 @@ education:
   - degree: "B.S. in Computer Science and Technology"
     school: "Xidian University"
     years: "2021 - 2025"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+    logo: "https://upload.wikimedia.org/wikipedia/zh/thumb/8/83/Xidian_University_Logo.svg/500px-Xidian_University_Logo.svg.png"
 
 # =====================================================
 # 💼 Work Experience Section
