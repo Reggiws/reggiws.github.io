@@ -123,8 +123,17 @@ function writeTS(filename, variable, content) {
   if (importStatements || typeImport) typeImport += "\n";
 
   // combine imports and TS content
-  const tsContent = `${importStatements}${typeImport}export const ${variable}${typeAnnotation} = ${toTS(
+  let finalTypeAnnotation = typeAnnotation;
+  if (!finalTypeAnnotation && Array.isArray(content) && content.length === 0) {
+    finalTypeAnnotation = ": any[]";
+  }
+
+  const tsContent = `${importStatements}${typeImport}export const ${variable}${finalTypeAnnotation} = ${toTS(
     content,
+  )};`;
+  fs.writeFileSync(path.join(outDir, filename), tsContent);
+  // const tsContent = `${importStatements}${typeImport}export const ${variable}${typeAnnotation} = ${toTS(
+  //   content,
   )};`;
   fs.writeFileSync(path.join(outDir, filename), tsContent);
 }
