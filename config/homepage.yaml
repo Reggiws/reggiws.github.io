@@ -18,7 +18,7 @@ homepage:
 
     - name: Publications
       variant: default
-      enabled: true
+      enabled: false
 
     - name: Projects
       variant: default
