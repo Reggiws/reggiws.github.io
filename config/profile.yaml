@@ -78,23 +78,13 @@ education:
 # 💼 Work Experience Section
 # =====================================================
 
-# workExperience:
-#   - title: "[Job Title]"
-#     company: "[Company Name]"
-#     years: "20XX - Present"
-#     logo: "/images/nvidia_logo.webp"
+workExperience: []
 
 # =====================================================
 # 🎤 Presentations / Talks Section
 # =====================================================
 
-# talks:
-#   - category: "Misc"
-#     title: "[Your Talk Title Here]"
-#     organization: "[Your Talk Location Here]"
-#     date: "[Month Day, Year]"
-#     link: "https://example.com/your-talk-link"
-#     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
+talks: []
 
 # =====================================================
 # 🛡️ Professional Services
