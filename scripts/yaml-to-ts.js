@@ -134,8 +134,8 @@ function writeTS(filename, variable, content) {
   fs.writeFileSync(path.join(outDir, filename), tsContent);
   // const tsContent = `${importStatements}${typeImport}export const ${variable}${typeAnnotation} = ${toTS(
   //   content,
-  )};`;
-  fs.writeFileSync(path.join(outDir, filename), tsContent);
+  // )};`;
+  // fs.writeFileSync(path.join(outDir, filename), tsContent);
 }
 
 // 5. Write TS files
