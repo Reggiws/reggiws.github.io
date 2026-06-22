@@ -1,351 +1,168 @@
+# =====================================================
+# Data displayed on the Home (About Me) page.
+#
+# 💡 Tip for Images / Logo:
+# You can use either:
+# 1. A full URL (e.g., https://example.com/logo.png)
+# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
+# =====================================================
+
+# =====================================================
+# 👤 Personal Information
+# =====================================================
+
 profile:
-name: "Siwei Chen"
-headline: "M.S. Student, UCAS"
-email: "[swaechen@163.com](mailto:swaechen@163.com)"
-location: "Beijing, China"
-profileImage: ""
+  name: "Siwei Chen"
+  headline: "Student @ UCAS"
+  email: "swaechen@163.com"
+  location: Beijing
+  profileImage: "https://github.com/Reggiws.png"
 
-links:
-- name: "LinkedIn"
-url: "https://www.linkedin.com/in/siwei-chen-a747b12b6"
-icon:
-name: "FaLinkedin"
-package: "react-icons/fa6"
+  links:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/siwei-chen-a747b12b6"
+      icon:
+        name: "FaLinkedin"
+        package: "react-icons/fa6"
 
-```
-- name: "Résumé"
-  url: "/pdf/llm_cv .pdf"
-  icon:
-    name: "FaRegIdBadge"
-    package: "react-icons/fa6"
+    # - name: "Google Scholar"
+    #   url: "https://scholar.google.com/citations?user=[your-id]"
+    #   icon:
+    #     name: "FaGoogleScholar"
+    #     package: "react-icons/fa6"
 
-- name: "GitHub"
-  url: "https://github.com/Reggiws"
-  icon:
-    name: "FaGithub"
-    package: "react-icons/fa6"
-```
+    - name: "Résumé"
+      url: "/pdf/llm_cv .pdf"
+      icon:
+        name: "FaRegIdBadge"
+        package: "react-icons/fa6"
 
-biography: |
-Hi! I'm Siwei Chen, an incoming M.S. student at the Institute of Information Engineering,
-University of Chinese Academy of Sciences (UCAS).
+    - name: "Github"
+      url: "https://github.com/Reggiws"
+      icon:
+        name: "FaGithub"
+        package: "react-icons/fa6"
 
-My research interests include Large Language Models, LLM Alignment,
-AI Security, and Agent Systems.
+    # - name: "Facebook"
+    #   url: "https://www.facebook.com/[your-facebook]"
+    #   icon:
+    #     name: "FaSquareFacebook"
+    #     package: "react-icons/fa6"
 
-I have experience with model fine-tuning and post-training techniques
-such as SFT, DPO, LoRA, and QLoRA.
+  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
+  biography: |
+    Hi! I'm Siwei Chen, an incoming M.S. student at the Institute of Information Engineering, University of Chinese Academy of Sciences (UCAS).
 
-Currently, I am exploring efficient post-training, alignment,
-and evaluation methods for large language models.
+    My research interests include Large Language Models, LLM Alignment, AI Security, and Agent Systems.
+
+    I have experience with model fine-tuning and post-training techniques such as SFT, DPO, LoRA, and QLoRA.
+
+    Currently, I am exploring efficient post-training and evaluation methods for large language models.
+
+# =====================================================
+# 🎓 Education Section
+# =====================================================
 
 education:
+  - degree: "M.S. in Cyber Security"
+    school: "University of Chinese Academy of Sciences"
+    years: "2026 - Present"
+    logo: "https://upload.wikimedia.org/wikipedia/zh/thumb/2/21/%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%BE%BD.svg/960px-%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%BE%BD.svg.png"
 
-* degree: "M.S. in Cyber Security"
-  school: "University of Chinese Academy of Sciences"
-  years: "2026 - Present"
-  logo: "https://upload.wikimedia.org/wikipedia/zh/thumb/2/21/%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%BE%BD.svg/960px-%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%BE%BD.svg.png"
+  - degree: "B.S. in Computer Science and Technology"
+    school: "Xidian University"
+    years: "2021 - 2025"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
 
-* degree: "B.S. in Computer Science and Technology"
-  school: "Xidian University"
-  years: "2021 - 2025"
-  logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/Xidian_University_logo.png"
+# =====================================================
+# 💼 Work Experience Section
+# =====================================================
+
+# workExperience:
+#   - title: "[Job Title]"
+#     company: "[Company Name]"
+#     years: "20XX - Present"
+#     logo: "/images/nvidia_logo.webp"
+
+# =====================================================
+# 🎤 Presentations / Talks Section
+# =====================================================
+
+# talks:
+#   - category: "Misc"
+#     title: "[Your Talk Title Here]"
+#     organization: "[Your Talk Location Here]"
+#     date: "[Month Day, Year]"
+#     link: "https://example.com/your-talk-link"
+#     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
+
+# =====================================================
+# 🛡️ Professional Services
+# =====================================================
 
 services:
+  - category: "Leadership & Service"
+    role: "Head of Environmental Affairs Department"
+    organization: "Youth Volunteers Association, Xidian University"
+    date: "2022 – 2023"
+    link: null
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/00/OOjs_UI_icon_userGroup-ltr-progressive.svg"
 
-* category: "Leadership & Service"
-  role: "Head of Environmental Affairs Department"
-  organization: "Youth Volunteers Association, Xidian University"
-  date: "2022 - 2023"
-  image: "https://upload.wikimedia.org/wikipedia/commons/0/00/OOjs_UI_icon_userGroup-ltr-progressive.svg"
+# =====================================================
+# 🛠️ Skills Section
+# =====================================================
 
 skills:
-Programming:
-- name: "Python"
-logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-proficiency: "Advanced"
-description: "Model training, evaluation, and data processing"
+  Programming:
+    - name: "Python"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+      proficiency: Advanced
+      description: "Model training, evaluation, and data processing"
 
-```
-- name: "C/C++"
-  logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-  proficiency: "Intermediate"
-  description: "Systems programming and performance-oriented development"
-```
+    - name: "C/C++"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+      proficiency: Intermediate
+      description: "Systems programming and performance-oriented development"
 
-LLM Alignment:
-- name: "PyTorch"
-logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-proficiency: "Advanced"
-description: "Training and fine-tuning large language models"
+  LLM & Alignment:
+    - name: "PyTorch"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
+      proficiency: Advanced
+      description: "Training and fine-tuning large language models"
 
-```
-- name: "Transformers"
-  logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-  proficiency: "Advanced"
-  description: "HF Transformers, PEFT, and TRL ecosystem"
+    - name: "Transformers"
+      logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      proficiency: Advanced
+      description: "HF Transformers, PEFT, and TRL ecosystem"
 
-- name: "SFT / DPO"
-  logo: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
-  proficiency: "Experienced"
-  description: "Post-training alignment and preference optimization"
+    - name: "SFT / DPO"
+      logo: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+      proficiency: Experienced
+      description: "Post-training alignment and preference optimization"
 
-- name: "LoRA / QLoRA"
-  logo: "https://cdn-icons-png.flaticon.com/512/4149/4149683.png"
-  proficiency: "Experienced"
-  description: "Parameter-efficient fine-tuning"
-```
+    - name: "LoRA / QLoRA"
+      logo: "https://cdn-icons-png.flaticon.com/512/4149/4149683.png"
+      proficiency: Experienced
+      description: "Parameter-efficient fine-tuning"
 
-Research:
-- name: "Large Language Models"
-logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-proficiency: "Current Focus"
-description: "Alignment, evaluation, and post-training methods"
+  Research:
+    - name: "Large Language Models"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: Current Focus
+      description: "Alignment, evaluation, and post-training methods"
 
-```
-- name: "AI Security"
-  logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/OOjs_UI_icon_lock-ltr-progressive.svg"
-  proficiency: "Research Interest"
-  description: "Safety, alignment, and trustworthy AI"
-```
+    - name: "AI Security"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/OOjs_UI_icon_lock-ltr-progressive.svg"
+      proficiency: Research Interest
+      description: "Safety, alignment, and trustworthy AI"
 
-publications:
+  Language:
+    - name: "English"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
+      proficiency: Fluent
+      description: "Professional working proficiency."
 
-* title: "Continuous Authentication via Wrist Photoplethysmogram: An Extensive Study"
-  authors: "J. Wu, X. Luo, Siwei Chen, et al."
-  venue: "IEEE Transactions on Mobile Computing (TMC)"
-  year: "2025"
-  link: ""
-  image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-
-
-
-
-
-# # =====================================================
-# # Data displayed on the Home (About Me) page.
-# #
-# # 💡 Tip for Images / Logo:
-# # You can use either:
-# # 1. A full URL (e.g., https://example.com/logo.png)
-# # 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
-# # =====================================================
-
-# # =====================================================
-# # 👤 Personal Information
-# # =====================================================
-
-# profile:
-#   name: "Siwei Chen"
-#   headline: "Student @ UCAS"
-#   email: "swaechen@163.com"
-#   location: Beijing
-#   profileImage: ""
-
-#   links:
-#     - name: "LinkedIn"
-#       url: "https://www.linkedin.com/in/siwei-chen-a747b12b6"
-#       icon:
-#         name: "FaLinkedin"
-#         package: "react-icons/fa6"
-
-#     # - name: "Google Scholar"
-#     #   url: "https://scholar.google.com/citations?user=[your-id]"
-#     #   icon:
-#     #     name: "FaGoogleScholar"
-#     #     package: "react-icons/fa6"
-
-#     - name: "Résumé"
-#       url: "/pdf/llm_cv .pdf"
-#       icon:
-#         name: "FaRegIdBadge"
-#         package: "react-icons/fa6"
-
-#     - name: "Github"
-#       url: "https://github.com/Reggiws"
-#       icon:
-#         name: "FaGithub"
-#         package: "react-icons/fa6"
-
-#     # - name: "Facebook"
-#     #   url: "https://www.facebook.com/[your-facebook]"
-#     #   icon:
-#     #     name: "FaSquareFacebook"
-#     #     package: "react-icons/fa6"
-
-#   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
-# biography: |
-#   Hi! I'm Siwei Chen, an incoming M.S. student at the Institute of Information Engineering, University of Chinese Academy of Sciences (UCAS).
-
-#   My research interests include Large Language Models, LLM Alignment, AI Security, and Agent Systems.
-
-#   I have experience with model fine-tuning and post-training techniques such as SFT, DPO, LoRA, and QLoRA.
-
-#   Currently, I am exploring efficient post-training and evaluation methods for large language models.
-# # # =====================================================
-# # # 🎓 Education Section
-# # # =====================================================
-
-# education:
-#   # - degree: "Ph.D. in [Field]"
-#   #   school: "[University Name]"
-#   #   years: "20XX - Present"
-#   #   logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
-
-#   - degree: "M.S. in cyber security"
-#     school: "University of Chinese Academy of Sciences"
-#     years: "2026 - Present"
-#     logo: "https://upload.wikimedia.org/wikipedia/zh/thumb/2/21/%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%BE%BD.svg/960px-%E5%9B%BD%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%BE%BD.svg.png"
-
-#   - degree: "B.S. in Computer Science and Technology"
-#     school: "Xidian University"
-#     years: "2021 - 2025"
-#     logo: "https://zh.wikipedia.org/wiki/File:Xidian_University_Logo.svg"
-
-# # # =====================================================
-# # # 💼 Work Experience Section
-# # # =====================================================
-
-# # workExperience:
-# #   - title: "[Job Title]"
-# #     company: "[Company Name]"
-# #     years: "20XX - Present"
-# #     logo: "/images/nvidia_logo.webp"
-
-# #   - title: "Software Engineering Intern"
-# #     company: "Google"
-# #     years: "Jul 2022 - Sep 2022"
-# #     logo: "/images/google_logo.svg"
-
-# #   - title: "Research Assistant"
-# #     company: "University of Illinois Urbana-Champaign"
-# #     years: "Jul 2019 - Sep 2019"
-# #     logo: "/images/uiuc_logo.png"
-
-# # # =====================================================
-# # # 🎤 Presentations / Talks Section
-# # # =====================================================
-
-# # talks:
-# #   - category: "Misc"
-# #     title: "[Your Talk Title Here]"
-# #     organization: "[Your Talk Location Here]"
-# #     date: "[Month Day, Year]"
-# #     link: "https://example.com/your-talk-link"
-# #     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-# #   - category: "Workshop"
-# #     title: "Deep Learning with Keras"
-# #     organization: "University of Illinois Urbana-Champaign (UIUC)"
-# #     date: "Sep 4, 2019"
-# #     link: null
-# #     image: "https://pm25.github.io/images/uiuc-workshop.webp"
-
-# #   - category: "Workshop"
-# #     title: "Practical Guide to PyTorch"
-# #     organization: "ABC University"
-# #     date: "Dec 5, 2022"
-# #     link: "https://example.com/workshop-talk"
-# #     image: null
-
-# # # =====================================================
-# # # 🛡️ Professional Services
-# # # =====================================================
-# services:
-#   - category: "Leadership & Service"
-#     role: "Head of Environmental Affairs Department"
-#     organization: "Youth Volunteers Association, Xidian University"
-#     date: "2022 – 2023"
-#     image: "https://upload.wikimedia.org/wikipedia/commons/0/00/OOjs_UI_icon_userGroup-ltr-progressive.svg"
-
-# # services:
-# #   - category: "Misc"
-# #     role: "[Role]"
-# #     organization: "[Organization]"
-# #     date: "[Year]"
-# #     link: "https://example.com/workshop-talk"
-# #     image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-# #   - category: "Research"
-# #     role: "Reviewer"
-# #     organization: "TPAMI 2024, NeurIPS 2025"
-# #     date: "2024-2025"
-# #     link: null
-# #     image: null
-
-# #   - category: "Research"
-# #     role: "Program Committee Member"
-# #     organization: "CVPR 2022"
-# #     date: "2022"
-# #     link: null
-# #     image: null
-
-# #   - category: "Teaching"
-# #     role: "Teaching Assistant"
-# #     organization: "National Taiwan University - Data Structures & Algorithms"
-# #     date: "2021"
-# #     link: null
-# #     image: null
-
-# # # =====================================================
-# # # 🛠️ Skills Section
-# # # =====================================================
-
-# skills:
-#   Programming:
-#     - name: "Python"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-#       proficiency: Advanced
-#       description: "Model training, evaluation, and data processing"
-
-#     - name: "C/C++"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-#       proficiency: Intermediate
-#       description: "Systems programming and performance-oriented development"
-
-#   LLM & Alignment:
-#     - name: "PyTorch"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-#       proficiency: Advanced
-#       description: "Training and fine-tuning large language models"
-
-#     - name: "Transformers"
-#       logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-#       proficiency: Advanced
-#       description: "HF Transformers, PEFT, and TRL ecosystem"
-
-#     - name: "SFT / DPO"
-#       logo: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
-#       proficiency: Experienced
-#       description: "Post-training alignment and preference optimization"
-
-#     - name: "LoRA / QLoRA"
-#       logo: "https://cdn-icons-png.flaticon.com/512/4149/4149683.png"
-#       proficiency: Experienced
-#       description: "Parameter-efficient fine-tuning"
-
-#   Research:
-#     - name: "Large Language Models"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-#       proficiency: Current Focus
-#       description: "Alignment, evaluation, and post-training methods"
-
-#     - name: "AI Security"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/OOjs_UI_icon_lock-ltr-progressive.svg"
-#       proficiency: Research Interest
-#       description: "Safety, alignment, and trustworthy AI"
-#     # - name: "Representation Learning"
-#     #   logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-#     #   proficiency: 2024 - 2025
-#     #   description: "Learning meaningful embeddings and feature representations from data."
-
-#   Language:
-#     - name: "English"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-#       proficiency: Fluent
-#       description: "Professional working proficiency."
-
-#     - name: "Mandarin Chinese"
-#       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Guanhua_swapped.svg/500px-Guanhua_swapped.svg.png"
-#       proficiency: Native
-#       description: "Native fluency."
+    - name: "Mandarin Chinese"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Guanhua_swapped.svg/500px-Guanhua_swapped.svg.png"
+      proficiency: Native
+      description: "Native fluency."
