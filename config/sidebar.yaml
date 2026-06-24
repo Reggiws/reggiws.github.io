@@ -7,7 +7,7 @@
 
 sidebar:
   userName: "Siwei Chen" # Name displayed at the top of the sidebar
-  profileImage: https://github.com/Reggiws/reggiws.github.io/tree/4f599ae0cde7d3c93458aaf96b8f2ca15e2f855d/public/images/wechat_2026-06-24_154810_385.png # Profile image URL
+  profileImage: https://github.com/Reggiws/reggiws.github.io/public/images/wechat_2026-06-24_154810_385.png # Profile image URL
   sections:
     - title: About Me
       url: ""
