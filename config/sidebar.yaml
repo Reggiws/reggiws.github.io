@@ -7,7 +7,7 @@
 
 sidebar:
   userName: "[Your Name]" # Name displayed at the top of the sidebar
-  profileImage: https://github.com/shadcn.png # Profile image URL
+  profileImage: https://www.linkedin.com/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3ByOaEPa3ES%2FOcoIr3z4qglA%3D%3D # Profile image URL
   sections:
     - title: About Me
       url: ""
