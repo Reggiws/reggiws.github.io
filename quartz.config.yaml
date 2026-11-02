@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Reggiws 的数字花园
+  pageTitle: Reggiws's Digital Garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics: null
-  locale: zh-CN
+  locale: en-US
   baseUrl: reggiws.github.io
   ignorePatterns:
     - private

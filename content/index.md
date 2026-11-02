@@ -1,21 +1,21 @@
 ---
-title: 你好，这里是 Reggiws 👋
-description: Reggiws 的个人主页与笔记入口。
+title: Hi, I'm Reggiws 👋
+description: A personal homepage and a place for notes, ideas, and projects.
 ---
 
-这是我的个人主页，也是一个持续生长的数字花园。我会在这里整理想法、记录学习过程，并为值得分享的项目留一个位置。
+Welcome to my personal homepage and digital garden. This is where I plan to collect ideas, document what I learn, and share projects worth exploring.
 
-> [!note] 主页正在搭建
-> 当前文字是占位内容。后续可以替换成真实简介、项目、文章和联系方式。
+> [!note] A work in progress
+> This site currently contains placeholder content. I'll add a real introduction, projects, writing, and contact details over time.
 
-## 从这里开始
+## Start here
 
-- **[[关于我]]**：一段个人介绍，以及可以联系我的方式。
-- **[[项目]]**：展示做过的项目与作品。
-- **[[笔记/index|笔记]]**：按主题整理学习与思考。
+- **[[about|About]]** — An introduction and ways to get in touch.
+- **[[projects|Projects]]** — Things I've built and want to share.
+- **[[notes/index|Notes]]** — Learning notes and ideas, organized by topic.
 
-## 这个网站怎么使用
+## Explore the garden
 
-左侧可以搜索和浏览页面，右侧可以看到目录与页面关系图。每篇笔记都可以通过 `[[双向链接]]` 和其他内容连起来。
+Use the search and page explorer to find your way around. The table of contents and graph help show how pages connect. Notes can link to one another using `[[wikilinks]]`.
 
-想看源码或更新记录，可以前往 [GitHub · Reggiws](https://github.com/Reggiws)。
+For source code and updates, visit [Reggiws on GitHub](https://github.com/Reggiws).
