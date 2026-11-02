@@ -6,11 +6,11 @@ description: A personal homepage and a place for notes, ideas, and projects.
 Welcome to my personal homepage and digital garden. This is where I plan to collect ideas, document what I learn, and share projects worth exploring.
 
 > [!note] A work in progress
-> This site currently contains placeholder content. I'll add a real introduction, projects, writing, and contact details over time.
+> My education and email are now on the About page. Project details and notes are still being added.
 
 ## Start here
 
-- **[[about|About]]** — An introduction and ways to get in touch.
+- **[[about|About]]** — My education and contact details.
 - **[[projects|Projects]]** — Things I've built and want to share.
 - **[[notes/index|Notes]]** — Learning notes and ideas, organized by topic.
 
