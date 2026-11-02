@@ -1,21 +1,37 @@
 ---
-title: Hi, I'm Reggiws 👋
-description: A personal homepage and a place for notes, ideas, and projects.
+title: Reggiws - Homepage
+description: Education, research, internships, projects, and contact information for Reggiws.
 ---
 
-Welcome to my personal homepage and digital garden. This is where I plan to collect ideas, document what I learn, and share projects worth exploring.
+# Hi, I'm Reggiws 👋
 
-> [!note] A work in progress
-> My education and email are now on the About page. Project details and notes are still being added.
+This is my personal homepage. I'm currently at the Institute of Information Engineering, Chinese Academy of Sciences, through the University of Chinese Academy of Sciences.
 
-## Start here
+[Education](#education) · [Research](#research) · [Internships](#internships) · [Projects](#projects) · [Contact](#contact)
 
-- **[[about|About]]** — My education and contact details.
-- **[[projects|Projects]]** — Things I've built and want to share.
-- **[[notes/index|Notes]]** — Learning notes and ideas, organized by topic.
+## Education
 
-## Explore the garden
+**University of Chinese Academy of Sciences (UCAS)** · Current  
+Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)
 
-Use the search and page explorer to find your way around. The table of contents and graph help show how pages connect. Notes can link to one another using `[[wikilinks]]`.
+**Xidian University**  
+School of Computer Science and Technology
 
-For source code and updates, visit [Reggiws on GitHub](https://github.com/Reggiws).
+**Tsinghua University High School**  
+High school
+
+## Research
+
+Research experience and publications will be added here.
+
+## Internships
+
+Internship experience will be added here.
+
+## Projects
+
+Selected projects will be added here. You can also visit [my GitHub profile](https://github.com/Reggiws).
+
+## Contact
+
+Email: [chensiwei26@mails.ucas.ac.cn](mailto:chensiwei26@mails.ucas.ac.cn)
