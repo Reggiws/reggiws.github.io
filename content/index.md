@@ -5,7 +5,7 @@ description: Education, research, internships, projects, and contact information
 
 # Hi, I'm Reggiws 👋
 
-This is my personal homepage. I'm currently at the Institute of Information Engineering, Chinese Academy of Sciences, through the University of Chinese Academy of Sciences.
+This is my personal homepage. I'm currently at the [ASCII Lab](https://ascii-iie.github.io/), Institute of Information Engineering, Chinese Academy of Sciences, through the University of Chinese Academy of Sciences.
 
 [Education](#education) · [Research](#research) · [Internships](#internships) · [Projects](#projects) · [Contact](#contact)
 
