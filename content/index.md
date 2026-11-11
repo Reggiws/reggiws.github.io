@@ -11,8 +11,7 @@ This is my personal homepage. I'm currently at the [ASCII Lab](https://ascii-iie
 
 ## Education
 
-- **Master's student in Cyberspace Security**, University of Chinese Academy of Sciences (UCAS), Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)  
-  Member of [**ASCII Lab**](https://ascii-iie.github.io/).
+- **Master's student in Cyberspace Security**, University of Chinese Academy of Sciences (UCAS), Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)
 
 - **B.Eng. in Computer Science and Technology**, School of Computer Science and Technology, Xidian University
 
