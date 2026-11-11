@@ -11,14 +11,12 @@ This is my personal homepage. I'm currently at the [ASCII Lab](https://ascii-iie
 
 ## Education
 
-**University of Chinese Academy of Sciences (UCAS)** · Current  
-Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)
+- **Master's student in Cyberspace Security**, University of Chinese Academy of Sciences (UCAS), Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)  
+  Member of [**ASCII Lab**](https://ascii-iie.github.io/).
 
-**Xidian University**  
-School of Computer Science and Technology
+- **B.Eng. in Computer Science and Technology**, School of Computer Science and Technology, Xidian University
 
-**Tsinghua University High School**  
-High school
+- **Tsinghua University High School**
 
 ## Research
 
