@@ -26,6 +26,10 @@
   }
 }
 
+.photo-gallery--single {
+  grid-template-columns: 1fr;
+}
+
 @media (max-width: 650px) {
   .photo-gallery {
     grid-template-columns: 1fr;
