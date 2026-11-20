@@ -1,0 +1,47 @@
+---
+title: 2026 collections
+description: A photo collection from Japan, Malaysia, and Beijing.
+---
+
+# 2026 collections
+
+[← Back to homepage](./)
+
+## Japan
+
+<div class="photo-gallery">
+  <figure>
+    <img src="/assets/photos/2026/japan-yamanashi.webp" alt="A swan beside snowy Mount Fuji at Lake Yamanaka, Yamanashi" loading="lazy" width="1536" height="1024">
+    <figcaption>Yamanashi · Lake Yamanaka</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/photos/2026/japan-hokkaido.webp" alt="Red cable car above the snow in Otaru, Hokkaido" loading="lazy" width="1536" height="1024">
+    <figcaption>Hokkaido · Otaru</figcaption>
+  </figure>
+</div>
+
+## Malaysia
+
+<div class="photo-gallery">
+  <figure>
+    <img src="/assets/photos/2026/malaysia-kuala-lumpur.webp" alt="A busy street at night in Bukit Bintang, Kuala Lumpur" loading="lazy" width="1024" height="1536">
+    <figcaption>Kuala Lumpur · Bukit Bintang</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/photos/2026/malaysia-langkawi.webp" alt="Macaques in the mangroves of Langkawi" loading="lazy" width="1024" height="1536">
+    <figcaption>Langkawi · Mangroves</figcaption>
+  </figure>
+</div>
+
+## Beijing
+
+<div class="photo-gallery">
+  <figure>
+    <img src="/assets/photos/2026/beijing-cctv.webp" alt="CCTV Headquarters silhouetted against the evening sky in Beijing" loading="lazy" width="1536" height="1024">
+    <figcaption>Chaoyang · CCTV Headquarters</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/photos/2026/beijing-yanqi-lake.webp" alt="View over Yanqi Lake and the surrounding hills in Huairou, Beijing" loading="lazy" width="1536" height="1024">
+    <figcaption>Huairou · Yanqi Lake</figcaption>
+  </figure>
+</div>
