@@ -30,6 +30,42 @@
   grid-template-columns: 1fr;
 }
 
+// The album menu is curated above; omit Quartz's automatic folder listing.
+.popover-hint:has(article.photo-index) > .page-listing {
+  display: none;
+}
+
+.site-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+
+  a {
+    padding: 0.4rem 0.65rem;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+
+  a[aria-current="page"] {
+    background: var(--highlight);
+    font-weight: 600;
+  }
+}
+
+@media all and ($mobile) {
+  .page > #quartz-body > .sidebar.left {
+    flex-wrap: wrap;
+  }
+
+  .site-navigation {
+    flex: 1 0 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 10;
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 650px) {
   .photo-gallery {
     grid-template-columns: 1fr;
