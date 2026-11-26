@@ -35,14 +35,25 @@
   display: none;
 }
 
+@font-face {
+  font-family: "Zhuque Quiet Note";
+  src: url("/static/fonts/quiet-note-fangsong.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 footer .quiet-note {
   margin: 2.5rem 0 0;
-  text-align: right;
+  text-align: left;
   color: color-mix(in srgb, var(--darkgray) 18%, var(--light));
-  font-size: 0.75rem;
+  font-family: "Zhuque Quiet Note", "FangSong", "STFangsong", serif;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.9;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.045em;
+  transform: scaleY(0.88);
+  transform-origin: left center;
   opacity: 1;
   text-wrap: pretty;
 }

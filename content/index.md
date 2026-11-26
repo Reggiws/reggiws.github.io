@@ -31,6 +31,8 @@ Selected projects will be added here. You can also visit [my GitHub profile](htt
 
 ## Photos
 
+*Some collections of places left behind, and moments that linger.*
+
 [Browse photo collections](/photos/)
 
 ## Contact
