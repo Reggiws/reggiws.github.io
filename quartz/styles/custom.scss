@@ -1,5 +1,157 @@
 @use "./variables.scss" as *;
 
+.page {
+  max-width: 1120px;
+
+  > #quartz-body > .sidebar.right {
+    display: none;
+  }
+
+  .page-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  article {
+    line-height: 1.8;
+
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 2.15rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.035em;
+    }
+
+    h2 {
+      margin: 2.75rem 0 1rem;
+      font-size: 1.15rem;
+      font-weight: 600;
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+    }
+
+    a.internal {
+      background: transparent;
+      padding: 0;
+    }
+
+    &.homepage {
+      strong {
+        color: var(--dark);
+        font-weight: 600;
+      }
+
+      li {
+        margin-bottom: 1.2rem;
+      }
+
+    }
+  }
+
+  .center > hr {
+    margin: 3.5rem 0 0;
+  }
+}
+
+.section-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
+  margin: 1.75rem 0 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 801px) {
+  .page > #quartz-body {
+    grid-template-columns: 220px minmax(0, 760px);
+    column-gap: 56px;
+    grid-template-areas:
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-footer";
+
+    > .sidebar.left {
+      padding-left: 1.5rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.25rem;
+  margin: 2.5rem 0 1rem;
+}
+
+.page article a.collection-cover {
+  display: block;
+  color: var(--dark);
+  font-weight: 400;
+  text-decoration: none;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1.25rem;
+    border-radius: 2px;
+    transition: opacity 180ms ease;
+  }
+
+  &:hover img {
+    opacity: 0.88;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 8px;
+  }
+
+  .collection-year {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    line-height: 1.5;
+  }
+
+  .collection-places {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--darkgray);
+    font-size: 0.875rem;
+    line-height: 1.7;
+  }
+}
+
+footer.site-footer {
+  margin: 1.5rem 0 3rem;
+  opacity: 1;
+  color: var(--darkgray);
+  font-size: 0.875rem;
+
+  .footer-line {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  nav {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  a {
+    color: inherit;
+    font-weight: 400;
+  }
+}
+
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -59,6 +211,11 @@ footer .quiet-note {
 }
 
 @media (max-width: 650px) {
+  .collection-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
   .photo-gallery {
     grid-template-columns: 1fr;
   }
