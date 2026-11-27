@@ -3,9 +3,14 @@ body.theme-luka .nav-right { display:flex; align-items:center; gap:22px; }
 body.theme-luka .nav-right a { color:var(--luka-text); font-size:14px; }
 body.theme-luka .profile-links { display:flex; justify-content:center; gap:18px; flex-wrap:wrap; font-size:13px; }
 body.theme-luka .site-email a { color:var(--luka-secondary); }
-body.theme-luka .education-entry { padding:0 0 16px; margin:0 0 16px; border-bottom:1px solid var(--luka-footer-border); }
+body.theme-luka .education-entry { padding:0 0 20px; margin:0 0 20px; border-bottom:1px solid var(--luka-footer-border); }
 body.theme-luka .education-entry:last-child { border:0; margin-bottom:0; padding-bottom:0; }
 body.theme-luka .education-entry p { margin:0 0 4px; }
+body.theme-luka .school-mark { flex:none; width:50px; height:50px; display:grid; place-items:center; border:1px solid var(--luka-border); border-radius:5px; color:var(--luka-accent); background:var(--luka-social-bg); font:600 14px/1 Georgia,serif; letter-spacing:.03em; }
+body.theme-luka .lab-mark { font-size:23px; }
+body.theme-luka .exp-subdetail { color:var(--luka-secondary); font-size:13px; }
+body.theme-luka .research-entry { padding-top:2px; }
+body.theme-luka .research-entry .exp-title a { color:var(--luka-text); }
 body.theme-luka .muted { color:var(--luka-secondary); font-style:italic; }
 body.theme-luka .photo-intro { color:var(--luka-secondary); font-style:italic; }
 body.theme-luka .text-link { font-weight:600; }
