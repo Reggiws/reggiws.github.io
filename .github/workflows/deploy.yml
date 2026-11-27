@@ -1,4 +1,4 @@
-name: Deploy Quartz to GitHub Pages
+name: Deploy homepage to GitHub Pages
 
 on:
   push:
@@ -15,29 +15,15 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
-      - run: npm ci
-      - run: npx quartz plugin install
-      - run: npx quartz build
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: public
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
       - uses: actions/deploy-pages@v4
         id: deployment

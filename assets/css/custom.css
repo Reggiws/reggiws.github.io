@@ -1,0 +1,35 @@
+@font-face { font-family: "Quiet Fangsong"; src: url("/assets/fonts/quiet-note-fangsong.woff2") format("woff2"); font-display: swap; }
+body.theme-luka .nav-right { display:flex; align-items:center; gap:22px; }
+body.theme-luka .nav-right a { color:var(--luka-text); font-size:14px; }
+body.theme-luka .profile-links { display:flex; justify-content:center; gap:18px; flex-wrap:wrap; font-size:13px; }
+body.theme-luka .site-email a { color:var(--luka-secondary); }
+body.theme-luka .education-entry { padding:0 0 16px; margin:0 0 16px; border-bottom:1px solid var(--luka-footer-border); }
+body.theme-luka .education-entry:last-child { border:0; margin-bottom:0; padding-bottom:0; }
+body.theme-luka .education-entry p { margin:0 0 4px; }
+body.theme-luka .muted { color:var(--luka-secondary); font-style:italic; }
+body.theme-luka .photo-intro { color:var(--luka-secondary); font-style:italic; }
+body.theme-luka .text-link { font-weight:600; }
+body.theme-luka .site-footer { text-align:left; padding-left:380px; }
+body.theme-luka .site-footer p { border:0; padding:0; }
+body.theme-luka .site-footer .quiet-note { margin:0 0 22px; color:color-mix(in srgb, var(--luka-secondary) 28%, var(--luka-bg)); font:12px/1.9 "Quiet Fangsong", serif; letter-spacing:.08em; }
+body.theme-luka .footer-divider { padding:0 5px; }
+body.theme-luka .gallery-wrapper { display:block; max-width:1040px; padding:110px 40px 70px; }
+body.theme-luka .gallery-main { max-width:900px; margin:0 auto; }
+body.theme-luka .gallery-kicker { color:var(--luka-accent); font-size:12px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; }
+body.theme-luka .gallery-title { margin:6px 0 8px; font-size:clamp(30px,5vw,46px); line-height:1.18; }
+body.theme-luka .gallery-subtitle { margin:0 0 32px; color:var(--luka-secondary); font-style:italic; }
+body.theme-luka .collection-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+body.theme-luka .collection-cover { display:block; color:var(--luka-text); }
+body.theme-luka .collection-cover img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; border-radius:4px; }
+body.theme-luka .collection-year { display:block; margin-top:12px; font-size:21px; font-weight:600; color:var(--luka-text); }
+body.theme-luka .collection-places { display:block; font-size:13px; color:var(--luka-secondary); }
+body.theme-luka .gallery-back { display:inline-block; margin-bottom:24px; font-size:13px; }
+body.theme-luka .photo-group { margin:42px 0 56px; }
+body.theme-luka .photo-group h2 { margin:0 0 16px; font-size:20px; color:var(--luka-text); font-weight:600; }
+body.theme-luka .photo-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; align-items:start; }
+body.theme-luka .photo-grid figure { margin:0; }
+body.theme-luka .photo-grid img { display:block; width:100%; height:auto; border-radius:4px; }
+body.theme-luka .photo-grid figcaption { margin-top:8px; font-size:13px; color:var(--luka-secondary); }
+body.theme-luka .gallery-footer { margin-top:70px; padding-top:18px; border-top:1px solid var(--luka-footer-border); color:var(--luka-secondary); font-size:12px; }
+@media (max-width:1080px) { body.theme-luka .site-footer { padding-left:0; } }
+@media (max-width:640px) { body.theme-luka .gallery-wrapper { padding:95px 20px 48px; } body.theme-luka .collection-grid,body.theme-luka .photo-grid { grid-template-columns:1fr; } body.theme-luka .photo-grid { gap:28px; } }
